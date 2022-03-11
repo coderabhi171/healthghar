@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health-Ghar</title>
+    
+    <link rel="icon" href="images/favicon.svg" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .thank{
+            width: 100%;
+            text-align: center;
+            /* border-bottom: 2px solid black; */
+            padding: 3rem;
+            box-shadow: 2px 5px 13px #009E60;
+        }
+        .thank h2{
+            color:#009E60;
+            margin: 10px;
+        }
+        .main_container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 5rem;
+            align-items: center;
+        }
+        .main_container ul li{
+            list-style:decimal;
+            padding: 2px;
+            margin: 10px 0px;
+            font-size: 1.2rem;
+        }
+        .right_container{
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+        .right_container h3{
+            margin: 0 8rem;
+        }
+        .question{
+            width: 76%;
+            margin: auto;
+            height: 30rem;
+            /* border: 2px solid #009E60; */
+            border-radius: 30px;
+            margin-top: 10rem;
+            margin-bottom: 10rem;
+            box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+        }
+        .question h2{
+            padding: 2rem;
+            margin:3rem;
+            text-align: center;
+
+        }
+        .question ul{
+            margin:0.8rem 3rem;
+            /* padding: 2rem; */
+
+        }
+        .question ul li{
+            padding:0.7rem;
+        }
+        .question span{
+            color: #009E60;
+            font-size: 1.2rem    ;
+            font-weight: bold;
+            margin-left: 16rem;
+        }
+        .question h3{
+            text-align: center;
+            margin-top:2rem;
+        }
+        @media (max-width: 770px){
+            .main_container{
+                flex-direction: column;
+            }
+            .main_container .right_container h3{
+                margin-top: 3rem;
+            }
+            .question{
+                height: max-content;
+                /* text-align: center; */
+            }
+            .question span{
+                margin: 1rem;
+            };
+            .right_container figure{
+                /* margin: 20px; */
+                width: 80%;
+                height: 80%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <section class="thank">
+        <a href="/">
+            <img src="./images/logo.svg" alt="logo" width="120px" height="50px" />
+          </a>
+        <h2>Thank You for being a part of our family.</h2>
+        <p>Health Ghar is always ready to serve.</p>
+    </section>    
+    
+    
+    <section class="question">
+        <h2>Why you should donate us?</h2>
+        <ul>
+            <li>Every day 12,000 people in India die due to the sheer lack of donated blood</li>
+            <li>One in 10 patients in India dies on the way to hospital</li>
+            <li>The doctor-to-patient ratio remains abysmally low, which is merely 0.7 doctors per 1,000 people</li>
+            <li>65 per cent of medical expenses in India are paid out of pocket by patients</li>
+        </ul>
+        <span>
+            Health Ghar are doing best to compress these numbers in best possible way
+        </span>
+        <h3>You don't need any specific reason, you just need your own reason<br>
+        Whatever your reason, the need is constant and your contribution is important for a healthy and reliable life. 
+        </h3>
+    </section>
+ 
+    <section class="main_container">
+
+        <section class="left_container">
+            <h3>Steps to follow</h3>
+            <ul>
+                <li>Open your favorate UPI app</li>
+                <li>Scan the given QR code </li>
+                <li>Enter the amount</li>
+                <li>Enter the password and save lives</li>
+            </ul>
+            <h1>OR</h1>
+            <ul>
+                <li>Open your favorate UPI app</li>
+                <li>Enter the given UPI Id</li>
+                <li>Enter the amount</li>
+                <li>Enter the password and save lives</li>
+            </ul>
+        </section>
+        <section class="right_container">
+            <h3>8858948976@paytm</h3>
+            <figure>
+                <img src="./images/qr_payment.jpeg" alt="Can't get the QR code please pay using UPI ID">
+            </figure>
+        </section>
+       
+    </section>
+    </body>
+    </html>
